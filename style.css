@@ -139,6 +139,11 @@ section h2{
     gap: 30px;
 }
 
+.ekskul-card{
+    text-decoration: none;
+    color: inherit;
+}
+
 #ekskul h2{
     width: 100%;
 }
@@ -150,6 +155,12 @@ section h2{
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#ekskul div:hover{
+    transform: translateY(-8px);
 }
 
 #ekskul img{

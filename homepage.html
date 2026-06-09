@@ -9,6 +9,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<script>
+
+window.addEventListener("scroll", function(){
+
+    const header = document.querySelector("header");
+
+    if(window.scrollY > 100){
+        header.classList.add("kecil");
+    }
+    else{
+        header.classList.remove("kecil");
+    }
+
+});
+
+</script>
+
 <body>
 
     <header>

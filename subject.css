@@ -1,0 +1,270 @@
+/* =========================
+   HERO SUBJECT
+========================= */
+
+.subject-hero{
+    background: linear-gradient(
+        135deg,
+        #2d2545,
+        #4a2ea6
+    );
+
+    color: white;
+
+    text-align: center;
+
+    padding: 80px 10%;
+}
+
+.subject-hero img{
+    width: 100%;
+    max-width: 800px;
+
+    height: 350px;
+
+    object-fit: cover;
+
+    border-radius: 20px;
+
+    margin-bottom: 25px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+.subject-hero h1{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.subject-hero p{
+    max-width: 800px;
+    margin: auto;
+}
+
+/* =========================
+   CONTAINER UMUM
+========================= */
+
+.subject-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 10%;
+}
+
+/* =========================
+   ABOUT
+========================= */
+
+.subject-about{
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.subject-about h2{
+    color: #4a2ea6;
+    margin-bottom: 20px;
+}
+
+.subject-about p{
+    line-height: 1.8;
+}
+
+/* =========================
+   KEGIATAN
+========================= */
+
+.subject-activity{
+    margin-top: 50px;
+}
+
+.subject-activity h2{
+    color: #4a2ea6;
+    margin-bottom: 25px;
+}
+
+.activity-grid{
+    display: grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+
+    gap: 25px;
+}
+
+.activity-card{
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+
+    transition: 0.3s;
+}
+
+.activity-card:hover{
+    transform: translateY(-8px);
+}
+
+.activity-card h3{
+    color: #4a2ea6;
+    margin-bottom: 10px;
+}
+
+/* =========================
+   GALERI
+========================= */
+
+.subject-gallery{
+    margin-top: 60px;
+}
+
+.subject-gallery h2{
+    color: #4a2ea6;
+    margin-bottom: 25px;
+}
+
+.gallery-grid{
+    display: grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(280px,1fr));
+
+    gap: 20px;
+}
+
+.gallery-grid img{
+    width: 100%;
+
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    transition: 0.3s;
+}
+
+.gallery-grid img:hover{
+    transform: scale(1.05);
+}
+
+/* =========================
+   PRESTASI
+========================= */
+
+.subject-achievement{
+    margin-top: 60px;
+}
+
+.subject-achievement h2{
+    color: #4a2ea6;
+    margin-bottom: 25px;
+}
+
+.achievement-card{
+    background: white;
+
+    padding: 25px;
+
+    margin-bottom: 20px;
+
+    border-left: 5px solid #ffd700;
+
+    border-radius: 12px;
+
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+/* =========================
+   JOIN SECTION
+========================= */
+
+.subject-join{
+    background: #ffd700;
+
+    margin-top: 70px;
+
+    padding: 50px;
+
+    border-radius: 20px;
+
+    text-align: center;
+}
+
+.subject-join h2{
+    color: #2d2545;
+    margin-bottom: 15px;
+}
+
+.subject-join p{
+    margin-bottom: 25px;
+}
+
+.subject-join a{
+    display: inline-block;
+
+    background: #2d2545;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 25px;
+
+    margin: 10px;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+.subject-join a:hover{
+    background: #4a2ea6;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width:768px){
+
+    .subject-hero{
+        padding: 60px 5%;
+    }
+
+    .subject-hero img{
+        height: 220px;
+    }
+
+    .subject-hero h1{
+        font-size: 2rem;
+    }
+
+    .subject-container{
+        padding: 50px 5%;
+    }
+
+    .subject-about{
+        padding: 25px;
+    }
+
+    .subject-join{
+        padding: 30px 20px;
+    }
+
+    .subject-join a{
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+}

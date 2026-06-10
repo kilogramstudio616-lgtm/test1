@@ -288,7 +288,7 @@ footer p{
 .hidden{
     opacity: 0;
 
-    transform: translateY(50px);
+    transform: translateY(100px);
 
     transition:
     opacity 0.8s ease,

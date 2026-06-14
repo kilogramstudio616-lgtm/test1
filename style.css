@@ -282,6 +282,7 @@ footer p{
         width: 100%;
         height: auto;
     }
+    
 
 }
 
@@ -502,4 +503,63 @@ footer p{
     color: #777;
 
     font-size: 0.9rem;
+}
+
+/* =====================
+   DIVISI REMAS
+===================== */
+
+#divisi{
+
+    background: #f7f4ff;
+}
+
+.divisi-subtitle{
+
+    color: #666;
+
+    margin-bottom: 40px;
+}
+
+.divisi-container{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 25px;
+}
+
+.divisi-card{
+
+    width: 280px;
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+    transition: 0.3s;
+}
+
+.divisi-card:hover{
+
+    transform: translateY(-8px);
+}
+
+.divisi-card h3{
+
+    color: #4a2ea6;
+
+    margin-bottom: 15px;
+}
+
+.divisi-card p{
+
+    color: #555;
 }
